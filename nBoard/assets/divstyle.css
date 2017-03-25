@@ -1,0 +1,19 @@
+
+@keyframes example {
+  from{background-color: red;}
+  to{background-color: yellow;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-duration: 4s;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
